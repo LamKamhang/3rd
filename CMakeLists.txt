@@ -35,6 +35,7 @@ require_package(Spectra "git@github.com:yixuan/spectra.git" "5f8ea3a")
 require_package(tinyobjloader "git@github.com:tinyobjloader/tinyobjloader.git" "e60d333")
 require_package(VORO "git@github.com:chr1shr/voro.git" "a45a362")
 require_package(SuiteSparse "git@github.com:LamKamhang/suitesparse-wrapper.git" "b5977fb")
+require_package(NLopt "git@github.com:stevengj/nlopt.git" "28dd32d")
 
 fetch_package(Trilinos "git@github.com:trilinos/Trilinos.git" "872dcd0e7da")
 fetch_package(TriWild "https://github.com/wildmeshing/TriWild" "d85ec7a")
@@ -73,5 +74,5 @@ fetch_package(imgui "git@github.com:ocornut/imgui.git" "00d570e"
 fetch_package(CoMISo "https://www.graphics.rwth-aachen.de:9000/CoMISo/CoMISo.git" "49a044a"
   SOURCE_DIR "${CMAKE_SOURCE_DIR}/3rd/CoMISo_wrapper/CoMISo"
   )
-fetch_package(cln "git://www.ginac.de/cln.git" "d1893be")
-fetch_package(ginac "git://www.ginac.de/ginac.git" "3956eb44")
+# fetch_package(cln "git://www.ginac.de/cln.git" "d1893be")
+# fetch_package(ginac "git://www.ginac.de/ginac.git" "3956eb44")
