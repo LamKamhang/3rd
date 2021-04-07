@@ -3,7 +3,6 @@ cmake_minimum_required(VERSION 3.6)
 project(${EXT_PROJ_NAME}-download NONE)
 
 include(ExternalProject)
-message(STATUS "REST: ${EXT_PROJ_UNPARSED_ARGUMENTS}")
 ExternalProject_Add(${EXT_PROJ_NAME}-download
                     PREFIX       "${EXT_PROJ_PREFIX}"
                     TMP_DIR      "${EXT_PROJ_TMP_DIR}"

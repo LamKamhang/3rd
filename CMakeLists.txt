@@ -43,7 +43,9 @@ fetch_package(fTetWild "git@github.com:wildmeshing/fTetWild.git" "c0be02c")
 fetch_package(csv-parser "git@github.com:vincentlaucsb/csv-parser.git" "65e4fa5")
 fetch_package(cmdline "git@github.com:tanakh/cmdline.git" "e4cd007")
 fetch_package(ccls "git@github.com:MaskRay/ccls.git" "c6686be3")
-fetch_package(igl  "ssh://git@ryon.ren:10022/mirrors/libigl.git"   "v2.2.0")
+fetch_package(igl  "ssh://git@ryon.ren:10022/mirrors/libigl.git"   "v2.3.0"
+  SOURCE_DIR "${CMAKE_SOURCE_DIR}/3rd/libigl"
+  )
 fetch_package(glm "git@github.com:g-truc/glm.git" "761a842a")
 fetch_package(benchmark "git@github.com:google/benchmark.git" "5e387e7")
 fetch_package(ceres-solver "https://ceres-solver.googlesource.com/ceres-solver" "ec4f299")
@@ -66,10 +68,10 @@ fetch_package(ThirdParty-Metis "git@github.com:coin-or-tools/ThirdParty-Metis.gi
 fetch_package(ThirdParty-Mumps "git@github.com:coin-or-tools/ThirdParty-Mumps.git" "787c1ac")
 fetch_package(variational-surface-cutting "git@github.com:nmwsharp/variational-surface-cutting.git" "4310b25")
 fetch_package(imgui "git@github.com:ocornut/imgui.git" "00d570e"
-  SOURCE_DIR "${CMAKE_SOURCE_DIR}/3rd/imgui_wrapper"
+  SOURCE_DIR "${CMAKE_SOURCE_DIR}/3rd/imgui_wrapper/imgui"
   )
 fetch_package(CoMISo "https://www.graphics.rwth-aachen.de:9000/CoMISo/CoMISo.git" "49a044a"
-  SOURCE_DIR "${CMAKE_SOURCE_DIR}/3rd/CoMISo_wrapper"
+  SOURCE_DIR "${CMAKE_SOURCE_DIR}/3rd/CoMISo_wrapper/CoMISo"
   )
 fetch_package(cln "git://www.ginac.de/cln.git" "d1893be")
-fetch_package(ginac "git://www.ginac.de/ginac.git" "50ea5211")
+fetch_package(ginac "git://www.ginac.de/ginac.git" "3956eb44")
