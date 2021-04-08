@@ -31,7 +31,7 @@ require_package(OpenMesh "ssh://git@ryon.ren:10022/mirrors/OpenMesh.git" "OpenMe
 require_package(pybind11 "git@github.com:pybind/pybind11.git" "4f0727f")
 require_package(RapidJSON "git@github.com:Tencent/rapidjson.git" "49aa0fc")
 require_package(spdlog "git@github.com:gabime/spdlog.git" "cbe94486")
-require_package(Spectra "git@github.com:yixuan/spectra.git" "5f8ea3a")
+require_package(Spectra "git@github.com:yixuan/spectra.git" "8164080")
 require_package(tinyobjloader "git@github.com:tinyobjloader/tinyobjloader.git" "e60d333")
 require_package(VORO "git@github.com:chr1shr/voro.git" "a45a362")
 require_package(SuiteSparse "git@github.com:LamKamhang/suitesparse-wrapper.git" "b5977fb")
@@ -74,3 +74,4 @@ fetch_package(CoMISo "https://www.graphics.rwth-aachen.de:9000/CoMISo/CoMISo.git
   )
 # fetch_package(cln "git://www.ginac.de/cln.git" "d1893be")
 # fetch_package(ginac "git://www.ginac.de/ginac.git" "3956eb44")
+fetch_package(oneDNN "git@github.com:oneapi-src/oneDNN.git" "8992640")
