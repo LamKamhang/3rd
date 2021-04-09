@@ -29,8 +29,8 @@ add_git_3rd_project(glfw3 "git@github.com:glfw/glfw.git" "33cd8b8")
 add_git_3rd_project(oneTBB "git@github.com:oneapi-src/oneTBB.git" "9e15720b"
   CMAKE_ARGS "-DTBB_TEST=OFF")
 add_git_3rd_project(oneDNN "git@github.com:oneapi-src/oneDNN.git" "8992640")
-add_git_3rd_project(oneMKL "git@github.com:oneapi-src/oneMKL.git" "1539bca"
-  CMAKE_ARGS "-DBUILD_FUNCTIONAL_TESTS=OFF -DCMAKE_CXX_COMPILER=dpcpp")
+# add_git_3rd_project(oneMKL "git@github.com:oneapi-src/oneMKL.git" "1539bca"
+#   CMAKE_ARGS "-DBUILD_FUNCTIONAL_TESTS=OFF -DCMAKE_CXX_COMPILER=dpcpp")
 add_git_3rd_project(OpenMesh "ssh://git@ryon.ren:10022/mirrors/OpenMesh.git" "OpenMesh-8.1")
 add_git_3rd_project(pybind11 "git@github.com:pybind/pybind11.git" "4f0727f")
 add_git_3rd_project(rapidjson "git@github.com:Tencent/rapidjson.git" "49aa0fc")
