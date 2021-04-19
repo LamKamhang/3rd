@@ -78,5 +78,6 @@ fetch_git_3rd_project(imgui "git@github.com:ocornut/imgui.git" "00d570e"
 fetch_git_3rd_project(CoMISo "https://www.graphics.rwth-aachen.de:9000/CoMISo/CoMISo.git" "49a044a"
   SOURCE_DIR "${CMAKE_SOURCE_DIR}/3rd/CoMISo_wrapper/CoMISo"
   )
+fetch_git_3rd_project(argparse "git@github.com:p-ranav/argparse.git" "1344889")
 # fetch_git_3rd_project(cln "git://www.ginac.de/cln.git" "d1893be")
 # fetch_git_3rd_project(ginac "git://www.ginac.de/ginac.git" "3956eb44")
