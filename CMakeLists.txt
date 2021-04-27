@@ -60,10 +60,10 @@ fetch_git_3rd_project(geometry-central "git@github.com:nmwsharp/geometry-central
 fetch_git_3rd_project(glad "git@github.com:LamKamhang/glad.git" "6ee1551")
 fetch_git_3rd_project(IPC "git@github.com:ipc-sim/IPC.git" "ad40d23")
 fetch_git_3rd_project(Ipopt "git@github.com:coin-or/Ipopt.git" "e8e9a71")
-fetch_git_3rd_project(nonmanifold-laplacian "git@github.com:nmwsharp/nonmanifold-laplacian.git" "0ed21e2")
+fetch_git_3rd_project(nonmanifold-laplacian "git@github.com:nmwsharp/nonmanifold-laplacian.git" "origin/master")
 fetch_git_3rd_project(onedrive "git@github.com:abraunegg/onedrive.git" "v2.4.11")
 fetch_git_3rd_project(penrose "git@github.com:penrose/penrose.git" "f56d55f5")
-fetch_git_3rd_project(polyscope "git@github.com:nmwsharp/polyscope.git" "ddc4c06")
+fetch_git_3rd_project(polyscope "git@github.com:nmwsharp/polyscope.git" "origin/master")
 fetch_git_3rd_project(qt-mvvm "git@github.com:gpospelov/qt-mvvm.git" "59f8083e")
 fetch_git_3rd_project(rectpack2D "git@github.com:TeamHypersomnia/rectpack2D.git" "9c7fe5d")
 fetch_git_3rd_project(sage "git://trac.sagemath.org/sage.git" "53285707f0")
@@ -72,7 +72,7 @@ fetch_git_3rd_project(ThirdParty-ASL "git@github.com:coin-or-tools/ThirdParty-AS
 fetch_git_3rd_project(ThirdParty-HSL "git@github.com:coin-or-tools/ThirdParty-HSL.git" "586b16a")
 fetch_git_3rd_project(ThirdParty-Metis "git@github.com:coin-or-tools/ThirdParty-Metis.git" "48d8910")
 fetch_git_3rd_project(ThirdParty-Mumps "git@github.com:coin-or-tools/ThirdParty-Mumps.git" "787c1ac")
-fetch_git_3rd_project(variational-surface-cutting "git@github.com:nmwsharp/variational-surface-cutting.git" "4310b25")
+fetch_git_3rd_project(variational-surface-cutting "git@github.com:nmwsharp/variational-surface-cutting.git" "origin/master")
 fetch_git_3rd_project(imgui "git@github.com:ocornut/imgui.git" "00d570e"
   SOURCE_DIR "${CMAKE_SOURCE_DIR}/3rd/imgui_wrapper/imgui"
   )
