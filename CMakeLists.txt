@@ -15,7 +15,7 @@ list(PREPEND CMAKE_PREFIX_PATH ${CUSTOM_CMAKE_PATH})
 
 # add some basic cmake functions
 include(utility)
-
+add_git_3rd_project(OpenVolumeMesh "https://www.graphics.rwth-aachen.de:9000/OpenVolumeMesh/OpenVolumeMesh.git" "v2.1")
 add_git_3rd_project(amgcl "git@github.com:ddemidov/amgcl.git" "7bd9448")
 add_git_3rd_project(assimp "git@github.com:assimp/assimp.git" "d51fce9e")
 add_git_3rd_project(autodiff "git@github.com:autodiff/autodiff.git" "5ce372b")
@@ -56,7 +56,7 @@ fetch_git_3rd_project(glm "git@github.com:g-truc/glm.git" "761a842a")
 fetch_git_3rd_project(benchmark "git@github.com:google/benchmark.git" "5e387e7")
 fetch_git_3rd_project(ceres-solver "https://ceres-solver.googlesource.com/ceres-solver" "ec4f299")
 fetch_git_3rd_project(FlameGraph "git@github.com:brendangregg/FlameGraph.git" "a258e78")
-fetch_git_3rd_project(geometry-central "git@github.com:nmwsharp/geometry-central.git" "7d1ed9e")
+fetch_git_3rd_project(geometry-central "git@github.com:nmwsharp/geometry-central.git" "origin/master")
 fetch_git_3rd_project(glad "git@github.com:LamKamhang/glad.git" "6ee1551")
 fetch_git_3rd_project(IPC "git@github.com:ipc-sim/IPC.git" "ad40d23")
 fetch_git_3rd_project(Ipopt "git@github.com:coin-or/Ipopt.git" "e8e9a71")
@@ -85,5 +85,6 @@ fetch_git_3rd_project(elmerfem "git@github.com:ElmerCSC/elmerfem.git" "origin/de
 fetch_git_3rd_project(femus "git@github.com:FeMTTU/femus.git" "origin/master")
 fetch_git_3rd_project(nanoflann "git@github.com:jlblancoc/nanoflann.git" "origin/master")
 fetch_git_3rd_project(raytracing.github.io "git@github.com:RayTracing/raytracing.github.io.git" "origin/master")
+
 # fetch_git_3rd_project(cln "git://www.ginac.de/cln.git" "d1893be")
 # fetch_git_3rd_project(ginac "git://www.ginac.de/ginac.git" "3956eb44")
