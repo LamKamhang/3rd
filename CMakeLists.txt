@@ -23,7 +23,7 @@ add_git_3rd_project(bullet3 "git@github.com:bulletphysics/bullet3.git" "21d1b8fc
 add_git_3rd_project(cgal "git@github.com:CGAL/cgal.git" "485e672c26")
 add_git_3rd_project(cli11 "git@github.com:CLIUtils/CLI11.git" "4af78be"
   CMAKE_ARGS "-DCLI11_BUILD_TESTS=OFF")
-add_git_3rd_project(eigen3   "ssh://git@ryon.ren:10022/mirrors/eigen3.git"   "3.3.9")
+add_git_3rd_project(eigen3   "ssh://git@ryon.ren:10022/mirrors/eigen3.git"   "3.4-rc1")
 add_git_3rd_project(fmt "git@github.com:fmtlib/fmt.git" "95da484")
 add_git_3rd_project(glfw3 "git@github.com:glfw/glfw.git" "33cd8b8")
 add_git_3rd_project(oneTBB "git@github.com:oneapi-src/oneTBB.git" "9e15720b"
