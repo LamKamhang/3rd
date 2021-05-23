@@ -24,7 +24,7 @@ add_git_3rd_project(cgal "git@github.com:CGAL/cgal.git" "485e672c26")
 add_git_3rd_project(cli11 "git@github.com:CLIUtils/CLI11.git" "4af78be"
   CMAKE_ARGS "-DCLI11_BUILD_TESTS=OFF")
 add_git_3rd_project(eigen3   "ssh://git@ryon.ren:10022/mirrors/eigen3.git"   "3.4-rc1")
-add_git_3rd_project(fmt "git@github.com:fmtlib/fmt.git" "95da484")
+add_git_3rd_project(fmt "ssh://git@ryon.ren:10022/mirrors/fmt.git" "95da484")
 add_git_3rd_project(glfw3 "git@github.com:glfw/glfw.git" "33cd8b8")
 add_git_3rd_project(oneTBB "git@github.com:oneapi-src/oneTBB.git" "9e15720b"
   CMAKE_ARGS "-DTBB_TEST=OFF")
@@ -85,6 +85,7 @@ fetch_git_3rd_project(elmerfem "git@github.com:ElmerCSC/elmerfem.git" "origin/de
 fetch_git_3rd_project(femus "git@github.com:FeMTTU/femus.git" "origin/master")
 fetch_git_3rd_project(nanoflann "git@github.com:jlblancoc/nanoflann.git" "origin/master")
 fetch_git_3rd_project(raytracing.github.io "git@github.com:RayTracing/raytracing.github.io.git" "origin/master")
+fetch_git_3rd_project(jiong-group-seminar "ssh://git@ryon.ren:10022/JiongCHEN/group-seminar.git" "origin/master")
 
 # fetch_git_3rd_project(cln "git://www.ginac.de/cln.git" "d1893be")
 # fetch_git_3rd_project(ginac "git://www.ginac.de/ginac.git" "3956eb44")
