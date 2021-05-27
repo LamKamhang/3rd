@@ -89,3 +89,4 @@ fetch_git_3rd_project(jiong-group-seminar "ssh://git@ryon.ren:10022/JiongCHEN/gr
 
 # fetch_git_3rd_project(cln "git://www.ginac.de/cln.git" "d1893be")
 # fetch_git_3rd_project(ginac "git://www.ginac.de/ginac.git" "3956eb44")
+fetch_url_3rd_project(ARCSim "http://graphics.berkeley.edu/resources/ARCSim/arcsim-0.3.1.tar.gz")
