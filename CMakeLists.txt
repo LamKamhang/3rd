@@ -58,6 +58,14 @@ add_git_3rd_project(TetWild "https://github.com/Yixin-Hu/TetWild" "f6ca5d9" DO_N
 add_git_3rd_project(fTetWild "git@github.com:wildmeshing/fTetWild.git" "c0be02c" DO_NOT_BUILD)
 add_git_3rd_project(ccls "git@github.com:MaskRay/ccls.git" "0.20210330" DO_NOT_BUILD)
 add_git_3rd_project(libigl  "ssh://git@ryon.ren:10022/mirrors/libigl.git"   "v2.3.0" DO_NOT_BUILD)
+add_git_3rd_project(ImGuizmo "https://github.com/CedricGuillemet/ImGuizmo/" "origin/master"
+  SOURCE_DIR "${CMAKE_SOURCE_DIR}/3rd/libigl/external/imguizmo"
+  DO_NOT_BUILD
+  )
+add_git_3rd_project(libigl-imgui "https://github.com/libigl/libigl-imgui" "origin/master"
+  SOURCE_DIR "${CMAKE_SOURCE_DIR}/3rd/libigl/external/libigl-imgui"
+  DO_NOT_BUILD
+  )
 add_git_3rd_project(glm "git@github.com:g-truc/glm.git" "6ad79aae" DO_NOT_BUILD) # 2021.9.2
 add_git_3rd_project(benchmark "git@github.com:google/benchmark.git" "v1.5.6" DO_NOT_BUILD)
 add_git_3rd_project(ceres-solver "https://ceres-solver.googlesource.com/ceres-solver" "2a2b9bd" DO_NOT_BUILD) # 2021.8.16
