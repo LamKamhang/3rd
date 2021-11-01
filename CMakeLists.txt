@@ -100,9 +100,11 @@ add_git_3rd_project(elmerfem "git@github.com:ElmerCSC/elmerfem.git" "origin/deve
 add_git_3rd_project(femus "git@github.com:FeMTTU/femus.git" "origin/master" DO_NOT_BUILD)
 add_git_3rd_project(nanoflann "git@github.com:jlblancoc/nanoflann.git" "origin/master" DO_NOT_BUILD)
 add_git_3rd_project(raytracing.github.io "git@github.com:RayTracing/raytracing.github.io.git" "origin/master" DO_NOT_BUILD)
-add_git_3rd_project(jiong-group-seminar "ssh://git@ryon.ren:10022/JiongCHEN/group-seminar.git" "origin/master" DO_NOT_BUILD)
+# add_git_3rd_project(jiong-group-seminar "ssh://git@ryon.ren:10022/JiongCHEN/group-seminar.git" "origin/master" DO_NOT_BUILD)
 add_git_3rd_project(pardiso "git@github.com:LamKamhang/pardiso.git" "origin/master" DO_NOT_BUILD)
 
 # fetch_git_3rd_project(cln "git://www.ginac.de/cln.git" "d1893be")
 # fetch_git_3rd_project(ginac "git://www.ginac.de/ginac.git" "3956eb44")
 add_url_3rd_project(ARCSim "http://graphics.berkeley.edu/resources/ARCSim/arcsim-0.3.1.tar.gz" DO_NOT_BUILD)
+# add_git_3rd_project(stan-math "git@github.com:stan-dev/math.git" "origin/master" DO_NOT_BUILD)
+add_url_3rd_project(protobuf "https://github.com/protocolbuffers/protobuf/releases/download/v3.19.1/protobuf-cpp-3.19.1.tar.gz" DO_NOT_BUILD)
