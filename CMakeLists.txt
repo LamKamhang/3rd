@@ -41,7 +41,7 @@ add_git_3rd_project(oneTBB "git@github.com:oneapi-src/oneTBB.git" "v2021.3.0"
 # add_git_3rd_project(oneMKL "git@github.com:oneapi-src/oneMKL.git" "1539bca"
 #   CMAKE_ARGS "-DBUILD_FUNCTIONAL_TESTS=OFF -DCMAKE_CXX_COMPILER=dpcpp")
 add_git_3rd_project(OpenMesh "ssh://git@ryon.ren:10022/mirrors/OpenMesh.git" "OpenMesh-8.1")
-add_git_3rd_project(pybind11 "git@github.com:pybind/pybind11.git" "v2.7.1")
+add_git_3rd_project(pybind11 "git@github.com:pybind/pybind11.git" "v2.8.1")
 add_git_3rd_project(rapidjson "git@github.com:Tencent/rapidjson.git" "00dbcf2c") # 2021.8.13
 add_git_3rd_project(toml11  "git@github.com:ToruNiina/toml11.git" "v3.7.0")
 add_git_3rd_project(spdlog "ssh://git@ryon.ren:10022/mirrors/spdlog.git" "v1.9.2")
@@ -58,11 +58,11 @@ add_git_3rd_project(TetWild "https://github.com/Yixin-Hu/TetWild" "f6ca5d9" DO_N
 add_git_3rd_project(fTetWild "git@github.com:wildmeshing/fTetWild.git" "c0be02c" DO_NOT_BUILD)
 add_git_3rd_project(ccls "git@github.com:MaskRay/ccls.git" "0.20210330" DO_NOT_BUILD)
 add_git_3rd_project(libigl  "ssh://git@ryon.ren:10022/mirrors/libigl.git"   "v2.3.0" DO_NOT_BUILD)
-add_git_3rd_project(ImGuizmo "https://github.com/CedricGuillemet/ImGuizmo/" "origin/master"
+add_git_3rd_project(ImGuizmo "ssh://git@ryon.ren:10022/mirrors/ImGuizmo.git" "origin/master"
   SOURCE_DIR "${CMAKE_SOURCE_DIR}/3rd/libigl/external/imguizmo"
   DO_NOT_BUILD
   )
-add_git_3rd_project(libigl-imgui "https://github.com/libigl/libigl-imgui" "origin/master"
+add_git_3rd_project(libigl-imgui "ssh://git@ryon.ren:10022/mirrors/libigl-imgui.git" "origin/master"
   SOURCE_DIR "${CMAKE_SOURCE_DIR}/3rd/libigl/external/libigl-imgui"
   DO_NOT_BUILD
   )
@@ -102,9 +102,10 @@ add_git_3rd_project(nanoflann "git@github.com:jlblancoc/nanoflann.git" "origin/m
 add_git_3rd_project(raytracing.github.io "git@github.com:RayTracing/raytracing.github.io.git" "origin/master" DO_NOT_BUILD)
 # add_git_3rd_project(jiong-group-seminar "ssh://git@ryon.ren:10022/JiongCHEN/group-seminar.git" "origin/master" DO_NOT_BUILD)
 add_git_3rd_project(pardiso "git@github.com:LamKamhang/pardiso.git" "origin/master" DO_NOT_BUILD)
+add_git_3rd_project(pagmo2 "git@github.com:esa/pagmo2.git" "origin/master" DO_NOT_BUILD)
+add_git_3rd_project(heyoka "git@github.com:bluescarni/heyoka.git" "origin/master" DO_NOT_BUILD)
 
 # fetch_git_3rd_project(cln "git://www.ginac.de/cln.git" "d1893be")
 # fetch_git_3rd_project(ginac "git://www.ginac.de/ginac.git" "3956eb44")
 add_url_3rd_project(ARCSim "http://graphics.berkeley.edu/resources/ARCSim/arcsim-0.3.1.tar.gz" DO_NOT_BUILD)
 # add_git_3rd_project(stan-math "git@github.com:stan-dev/math.git" "origin/master" DO_NOT_BUILD)
-add_url_3rd_project(protobuf "https://github.com/protocolbuffers/protobuf/releases/download/v3.19.1/protobuf-cpp-3.19.1.tar.gz" DO_NOT_BUILD)
