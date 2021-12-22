@@ -20,7 +20,7 @@ add_git_3rd_project(amgcl "git@github.com:ddemidov/amgcl.git" "1.4.2")
 add_git_3rd_project(assimp "git@github.com:assimp/assimp.git" "209167c") # 2021.9.2
 add_git_3rd_project(Catch2 "ssh://git@ryon.ren:10022/mirrors/Catch2.git"  "v2.13.7")
 add_git_3rd_project(eigen3   "ssh://git@ryon.ren:10022/mirrors/eigen3.git"   "3.4.0")
-add_git_3rd_project(autodiff "ssh://git@ryon.ren:10022/mirrors/autodiff.git" "v0.6.4"
+add_git_3rd_project(autodiff "ssh://git@ryon.ren:10022/mirrors/autodiff.git" "a43a79f" # 2021.9.27
   CMAKE_ARGS "-DAUTODIFF_BUILD_TESTS=OFF"
   CMAKE_ARGS "-DAUTODIFF_BUILD_PYTHON=OFF"
   CMAKE_ARGS "-DAUTODIFF_BUILD_EXAMPLES=OFF"
