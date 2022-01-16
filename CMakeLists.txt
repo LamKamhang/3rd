@@ -109,3 +109,4 @@ add_git_3rd_project(heyoka "git@github.com:bluescarni/heyoka.git" "origin/master
 # fetch_git_3rd_project(ginac "git://www.ginac.de/ginac.git" "3956eb44")
 add_url_3rd_project(ARCSim "http://graphics.berkeley.edu/resources/ARCSim/arcsim-0.3.1.tar.gz" DO_NOT_BUILD)
 # add_git_3rd_project(stan-math "git@github.com:stan-dev/math.git" "origin/master" DO_NOT_BUILD)
+add_git_3rd_project(CPM.cmake "https://github.com/cpm-cmake/CPM.cmake.git" DO_NOT_BUILD)
