@@ -68,7 +68,7 @@ add_git_3rd_project(libigl-imgui "ssh://git@ryon.ren:10022/mirrors/libigl-imgui.
   )
 add_git_3rd_project(glm "git@github.com:g-truc/glm.git" "6ad79aae" DO_NOT_BUILD) # 2021.9.2
 add_git_3rd_project(benchmark "git@github.com:google/benchmark.git" "v1.5.6" DO_NOT_BUILD)
-add_git_3rd_project(ceres-solver "https://ceres-solver.googlesource.com/ceres-solver" "2a2b9bd" DO_NOT_BUILD) # 2021.8.16
+add_git_3rd_project(ceres-solver "git@github.com:ceres-solver/ceres-solver.git" "09ec499" DO_NOT_BUILD) # 2022.2.18
 add_git_3rd_project(FlameGraph "git@github.com:brendangregg/FlameGraph.git" "a258e78" DO_NOT_BUILD)
 add_git_3rd_project(geometry-central "git@github.com:nmwsharp/geometry-central.git" "origin/master" DO_NOT_BUILD)
 add_git_3rd_project(glad "git@github.com:LamKamhang/glad.git" "6ee1551" DO_NOT_BUILD)
@@ -109,4 +109,5 @@ add_git_3rd_project(heyoka "git@github.com:bluescarni/heyoka.git" "origin/master
 # fetch_git_3rd_project(ginac "git://www.ginac.de/ginac.git" "3956eb44")
 add_url_3rd_project(ARCSim "http://graphics.berkeley.edu/resources/ARCSim/arcsim-0.3.1.tar.gz" DO_NOT_BUILD)
 # add_git_3rd_project(stan-math "git@github.com:stan-dev/math.git" "origin/master" DO_NOT_BUILD)
-add_git_3rd_project(CPM.cmake "https://github.com/cpm-cmake/CPM.cmake.git" DO_NOT_BUILD)
+add_git_3rd_project(CPM.cmake "git@github.com:cpm-cmake/CPM.cmake.git" "origin/master" DO_NOT_BUILD)
+add_git_3rd_project(MeshFEM "git@github.com:MeshFEM/MeshFEM.git" "origin/master" DO_NOT_BUILD)
