@@ -28,7 +28,7 @@ add_git_3rd_project(autodiff "ssh://git@ryon.ren:10022/mirrors/autodiff.git" "a4
   )
 add_git_3rd_project(bullet3 "git@github.com:bulletphysics/bullet3.git" "3.17")
 add_git_3rd_project(cgal "git@github.com:CGAL/cgal.git" "v5.3")
-add_git_3rd_project(cli11 "ssh://git@ryon.ren:10022/mirrors/CLI11.git" "v2.0.0"
+add_git_3rd_project(cli11 "ssh://git@ryon.ren:10022/mirrors/CLI11.git" "v2.2.0"
   CMAKE_ARGS "-DCLI11_BUILD_EXAMPLES=OFF"
   CMAKE_ARGS "-DCLI11_BUILD_TESTS=OFF"
   CMAKE_ARGS "-DCLI11_BUILD_DOCS=OFF"
@@ -63,7 +63,7 @@ add_git_3rd_project(ImGuizmo "ssh://git@ryon.ren:10022/mirrors/ImGuizmo.git" "or
   SOURCE_DIR "${CMAKE_SOURCE_DIR}/3rd/libigl/external/imguizmo"
   DO_NOT_BUILD
   )
-add_git_3rd_project(libigl-imgui "ssh://git@ryon.ren:10022/mirrors/libigl-imgui.git" "origin/master"
+add_git_3rd_project(libigl-imgui "ssh://git@ryon.ren:10022/mirrors/libigl-imgui.git" "7e1053e7"
   SOURCE_DIR "${CMAKE_SOURCE_DIR}/3rd/libigl/external/libigl-imgui"
   DO_NOT_BUILD
   )
@@ -99,7 +99,7 @@ add_git_3rd_project(CoMISo "https://www.graphics.rwth-aachen.de:9000/CoMISo/CoMI
 add_git_3rd_project(apic2d "git@github.com:nepluno/apic2d.git" "origin/master" DO_NOT_BUILD)
 add_git_3rd_project(elmerfem "git@github.com:ElmerCSC/elmerfem.git" "origin/devel" DO_NOT_BUILD)
 add_git_3rd_project(femus "git@github.com:FeMTTU/femus.git" "origin/master" DO_NOT_BUILD)
-add_git_3rd_project(nanoflann "git@github.com:jlblancoc/nanoflann.git" "origin/master")
+add_git_3rd_project(nanoflann "git@github.com:jlblancoc/nanoflann.git" "v1.4.2")
 add_git_3rd_project(raytracing.github.io "git@github.com:RayTracing/raytracing.github.io.git" "origin/master" DO_NOT_BUILD)
 # add_git_3rd_project(jiong-group-seminar "ssh://git@ryon.ren:10022/JiongCHEN/group-seminar.git" "origin/master" DO_NOT_BUILD)
 add_git_3rd_project(pardiso "git@github.com:LamKamhang/pardiso.git" "origin/master" DO_NOT_BUILD)
