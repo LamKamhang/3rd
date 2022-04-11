@@ -16,18 +16,18 @@ list(PREPEND CMAKE_PREFIX_PATH ${CUSTOM_CMAKE_PATH})
 # add some basic cmake functions
 include(utility)
 add_git_3rd_project(OpenVolumeMesh "ssh://git@ryon.ren:10022/mirrors/OpenVolumeMesh.git" "v2.1")
-add_git_3rd_project(amgcl "git@github.com:ddemidov/amgcl.git" "1.4.2")
-add_git_3rd_project(assimp "git@github.com:assimp/assimp.git" "209167c") # 2021.9.2
+add_git_3rd_project(amgcl "git@github.com:ddemidov/amgcl.git" "1.4.3")
+add_git_3rd_project(assimp "git@github.com:assimp/assimp.git" "v5.2.3")
 add_git_3rd_project(Catch2 "ssh://git@ryon.ren:10022/mirrors/Catch2.git"  "v2.13.7")
 add_git_3rd_project(eigen3   "ssh://git@ryon.ren:10022/mirrors/eigen3.git"   "3.4.0")
-add_git_3rd_project(autodiff "ssh://git@ryon.ren:10022/mirrors/autodiff.git" "a43a79f" # 2021.9.27
+add_git_3rd_project(autodiff "ssh://git@ryon.ren:10022/mirrors/autodiff.git" "v0.6.7"
   CMAKE_ARGS "-DAUTODIFF_BUILD_TESTS=OFF"
   CMAKE_ARGS "-DAUTODIFF_BUILD_PYTHON=OFF"
   CMAKE_ARGS "-DAUTODIFF_BUILD_EXAMPLES=OFF"
   CMAKE_ARGS "-DAUTODIFF_BUILD_DOCS=OFF"
   )
 add_git_3rd_project(bullet3 "git@github.com:bulletphysics/bullet3.git" "3.17")
-add_git_3rd_project(cgal "git@github.com:CGAL/cgal.git" "v5.3")
+add_git_3rd_project(cgal "git@github.com:CGAL/cgal.git" "v5.4")
 add_git_3rd_project(cli11 "ssh://git@ryon.ren:10022/mirrors/CLI11.git" "v2.2.0"
   CMAKE_ARGS "-DCLI11_BUILD_EXAMPLES=OFF"
   CMAKE_ARGS "-DCLI11_BUILD_TESTS=OFF"
@@ -41,7 +41,7 @@ add_git_3rd_project(oneTBB "git@github.com:oneapi-src/oneTBB.git" "v2021.3.0"
 # add_git_3rd_project(oneMKL "git@github.com:oneapi-src/oneMKL.git" "1539bca"
 #   CMAKE_ARGS "-DBUILD_FUNCTIONAL_TESTS=OFF -DCMAKE_CXX_COMPILER=dpcpp")
 add_git_3rd_project(OpenMesh "ssh://git@ryon.ren:10022/mirrors/OpenMesh.git" "OpenMesh-8.1")
-add_git_3rd_project(pybind11 "git@github.com:pybind/pybind11.git" "v2.8.1")
+add_git_3rd_project(pybind11 "git@github.com:pybind/pybind11.git" "v2.9.2")
 add_git_3rd_project(rapidjson "git@github.com:Tencent/rapidjson.git" "00dbcf2c") # 2021.8.13
 add_git_3rd_project(nlohmann_json "git@github.com:nlohmann/json.git" "v3.10.5")
 add_git_3rd_project(toml11  "git@github.com:ToruNiina/toml11.git" "v3.7.0")
@@ -74,7 +74,7 @@ add_git_3rd_project(FlameGraph "git@github.com:brendangregg/FlameGraph.git" "810
 add_git_3rd_project(geometry-central "git@github.com:nmwsharp/geometry-central.git" "origin/master" DO_NOT_BUILD)
 add_git_3rd_project(glad "git@github.com:LamKamhang/glad.git" "6ee1551" DO_NOT_BUILD)
 add_git_3rd_project(IPC "git@github.com:ipc-sim/IPC.git" "origin/master" DO_NOT_BUILD)
-add_git_3rd_project(Ipopt "git@github.com:coin-or/Ipopt.git" "e8e9a71" DO_NOT_BUILD)
+add_git_3rd_project(Ipopt "git@github.com:coin-or/Ipopt.git" "releases/3.14.5" DO_NOT_BUILD)
 add_git_3rd_project(nonmanifold-laplacian "git@github.com:nmwsharp/nonmanifold-laplacian.git" "origin/master" DO_NOT_BUILD)
 add_git_3rd_project(onedrive "git@github.com:abraunegg/onedrive.git" "v2.4.15" DO_NOT_BUILD)
 add_git_3rd_project(penrose "git@github.com:penrose/penrose.git" "f56d55f5" DO_NOT_BUILD)
@@ -104,6 +104,7 @@ add_git_3rd_project(raytracing.github.io "git@github.com:RayTracing/raytracing.g
 # add_git_3rd_project(jiong-group-seminar "ssh://git@ryon.ren:10022/JiongCHEN/group-seminar.git" "origin/master" DO_NOT_BUILD)
 add_git_3rd_project(pardiso "git@github.com:LamKamhang/pardiso.git" "origin/master" DO_NOT_BUILD)
 add_git_3rd_project(pagmo2 "git@github.com:esa/pagmo2.git" "origin/master" DO_NOT_BUILD)
+add_git_3rd_project(pygmo2 "git@github.com:esa/pygmo2.git" "origin/master" DO_NOT_BUILD)
 add_git_3rd_project(heyoka "git@github.com:bluescarni/heyoka.git" "origin/master" DO_NOT_BUILD)
 
 # fetch_git_3rd_project(cln "git://www.ginac.de/cln.git" "d1893be")
