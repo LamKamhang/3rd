@@ -74,7 +74,6 @@ add_git_3rd_project(FlameGraph "git@github.com:brendangregg/FlameGraph.git" "810
 add_git_3rd_project(geometry-central "git@github.com:nmwsharp/geometry-central.git" "origin/master" DO_NOT_BUILD)
 add_git_3rd_project(glad "git@github.com:LamKamhang/glad.git" "6ee1551" DO_NOT_BUILD)
 add_git_3rd_project(IPC "git@github.com:ipc-sim/IPC.git" "origin/master" DO_NOT_BUILD)
-add_git_3rd_project(Ipopt "git@github.com:coin-or/Ipopt.git" "releases/3.14.5" DO_NOT_BUILD)
 add_git_3rd_project(nonmanifold-laplacian "git@github.com:nmwsharp/nonmanifold-laplacian.git" "origin/master" DO_NOT_BUILD)
 add_git_3rd_project(onedrive "git@github.com:abraunegg/onedrive.git" "v2.4.15" DO_NOT_BUILD)
 add_git_3rd_project(penrose "git@github.com:penrose/penrose.git" "f56d55f5" DO_NOT_BUILD)
@@ -83,10 +82,11 @@ add_git_3rd_project(qt-mvvm "git@github.com:gpospelov/qt-mvvm.git" "59f8083e" DO
 add_git_3rd_project(rectpack2D "git@github.com:TeamHypersomnia/rectpack2D.git" "9c7fe5d" DO_NOT_BUILD)
 add_git_3rd_project(sage "git://trac.sagemath.org/sage.git" "53285707f0" DO_NOT_BUILD)
 add_git_3rd_project(stb "git@github.com:nothings/stb.git" "c0c9826" DO_NOT_BUILD)
-add_git_3rd_project(ThirdParty-ASL "git@github.com:coin-or-tools/ThirdParty-ASL.git" "e0d96c7" DO_NOT_BUILD)
-add_git_3rd_project(ThirdParty-HSL "git@github.com:coin-or-tools/ThirdParty-HSL.git" "586b16a" DO_NOT_BUILD)
-add_git_3rd_project(ThirdParty-Metis "git@github.com:coin-or-tools/ThirdParty-Metis.git" "48d8910" DO_NOT_BUILD)
-add_git_3rd_project(ThirdParty-Mumps "git@github.com:coin-or-tools/ThirdParty-Mumps.git" "787c1ac" DO_NOT_BUILD)
+add_git_3rd_project(Ipopt "git@github.com:coin-or/Ipopt.git" "releases/3.14.5" DO_NOT_BUILD)
+add_git_3rd_project(ThirdParty-ASL "git@github.com:coin-or-tools/ThirdParty-ASL.git" "releases/2.0.0" DO_NOT_BUILD)
+add_git_3rd_project(ThirdParty-HSL "git@github.com:coin-or-tools/ThirdParty-HSL.git" "9d85805" DO_NOT_BUILD) # releases/2.2.1
+add_git_3rd_project(ThirdParty-Metis "git@github.com:coin-or-tools/ThirdParty-Metis.git" "releases/2.0.0" DO_NOT_BUILD)
+add_git_3rd_project(ThirdParty-Mumps "git@github.com:coin-or-tools/ThirdParty-Mumps.git" "releases/3.0.2" DO_NOT_BUILD)
 add_git_3rd_project(variational-surface-cutting "git@github.com:nmwsharp/variational-surface-cutting.git" "origin/master" DO_NOT_BUILD)
 add_git_3rd_project(imgui "git@github.com:ocornut/imgui.git" "v1.84.2"
   SOURCE_DIR "${CMAKE_SOURCE_DIR}/3rd/imgui_wrapper/imgui"
@@ -113,3 +113,4 @@ add_url_3rd_project(ARCSim "http://graphics.berkeley.edu/resources/ARCSim/arcsim
 # add_git_3rd_project(stan-math "git@github.com:stan-dev/math.git" "origin/master" DO_NOT_BUILD)
 add_git_3rd_project(CPM.cmake "git@github.com:cpm-cmake/CPM.cmake.git" "origin/master" DO_NOT_BUILD)
 add_git_3rd_project(MeshFEM "git@github.com:MeshFEM/MeshFEM.git" "origin/master" DO_NOT_BUILD)
+add_git_3rd_project(osqp-cpp "git@github.com:google/osqp-cpp.git" "origin/master" DO_NOT_BUILD)
