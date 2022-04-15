@@ -59,7 +59,7 @@ add_git_3rd_project(TetWild "https://github.com/Yixin-Hu/TetWild" "f6ca5d9" DO_N
 add_git_3rd_project(fTetWild "git@github.com:wildmeshing/fTetWild.git" "c0be02c" DO_NOT_BUILD)
 add_git_3rd_project(ccls "git@github.com:MaskRay/ccls.git" "0.20210330" DO_NOT_BUILD)
 add_git_3rd_project(libigl  "ssh://git@ryon.ren:10022/mirrors/libigl.git"   "v2.3.0" DO_NOT_BUILD)
-add_git_3rd_project(ImGuizmo "ssh://git@ryon.ren:10022/mirrors/ImGuizmo.git" "origin/master"
+add_git_3rd_project(ImGuizmo "ssh://git@ryon.ren:10022/mirrors/ImGuizmo.git" "8afa1d70"
   SOURCE_DIR "${CMAKE_SOURCE_DIR}/3rd/libigl/external/imguizmo"
   DO_NOT_BUILD
   )
@@ -114,3 +114,4 @@ add_url_3rd_project(ARCSim "http://graphics.berkeley.edu/resources/ARCSim/arcsim
 add_git_3rd_project(CPM.cmake "git@github.com:cpm-cmake/CPM.cmake.git" "origin/master" DO_NOT_BUILD)
 add_git_3rd_project(MeshFEM "git@github.com:MeshFEM/MeshFEM.git" "origin/master" DO_NOT_BUILD)
 add_git_3rd_project(osqp-cpp "git@github.com:google/osqp-cpp.git" "origin/master" DO_NOT_BUILD)
+add_git_3rd_project(alglib "git@github.com:LamKamhang/alglib-cmake-wrapper.git" "origin/master")
