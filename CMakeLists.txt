@@ -82,11 +82,12 @@ add_git_3rd_project(qt-mvvm "git@github.com:gpospelov/qt-mvvm.git" "59f8083e" DO
 add_git_3rd_project(rectpack2D "git@github.com:TeamHypersomnia/rectpack2D.git" "9c7fe5d" DO_NOT_BUILD)
 # add_git_3rd_project(sage "git://trac.sagemath.org/sage.git" "53285707f0" DO_NOT_BUILD)
 add_git_3rd_project(stb "git@github.com:nothings/stb.git" "c0c9826" DO_NOT_BUILD)
-add_git_3rd_project(Ipopt "git@github.com:coin-or/Ipopt.git" "releases/3.14.5" DO_NOT_BUILD)
-add_git_3rd_project(ThirdParty-ASL "git@github.com:coin-or-tools/ThirdParty-ASL.git" "releases/2.0.0" DO_NOT_BUILD)
-add_git_3rd_project(ThirdParty-HSL "git@github.com:coin-or-tools/ThirdParty-HSL.git" "9d85805" DO_NOT_BUILD) # releases/2.2.1
-add_git_3rd_project(ThirdParty-Metis "git@github.com:coin-or-tools/ThirdParty-Metis.git" "releases/2.0.0" DO_NOT_BUILD)
-add_git_3rd_project(ThirdParty-Mumps "git@github.com:coin-or-tools/ThirdParty-Mumps.git" "releases/3.0.2" DO_NOT_BUILD)
+# add_git_3rd_project(Ipopt "git@github.com:coin-or/Ipopt.git" "releases/3.14.5" DO_NOT_BUILD)
+# add_git_3rd_project(ThirdParty-ASL "git@github.com:coin-or-tools/ThirdParty-ASL.git" "releases/2.0.0" DO_NOT_BUILD)
+# add_git_3rd_project(ThirdParty-HSL "git@github.com:coin-or-tools/ThirdParty-HSL.git" "9d85805" DO_NOT_BUILD) # releases/2.2.1
+# add_git_3rd_project(ThirdParty-Metis "git@github.com:coin-or-tools/ThirdParty-Metis.git" "releases/2.0.0" DO_NOT_BUILD)
+# add_git_3rd_project(ThirdParty-Mumps "git@github.com:coin-or-tools/ThirdParty-Mumps.git" "releases/3.0.2" DO_NOT_BUILD)
+add_git_3rd_project(Ipopt "git@github.com:LamKamhang/Ipopt-cmake-wrapper.git" "origin/master")
 add_git_3rd_project(variational-surface-cutting "git@github.com:nmwsharp/variational-surface-cutting.git" "origin/master" DO_NOT_BUILD)
 add_git_3rd_project(imgui "git@github.com:ocornut/imgui.git" "v1.84.2"
   SOURCE_DIR "${CMAKE_SOURCE_DIR}/3rd/imgui_wrapper/imgui"
