@@ -15,6 +15,7 @@ list(PREPEND CMAKE_PREFIX_PATH ${CUSTOM_CMAKE_PATH})
 
 # add some basic cmake functions
 include(utility)
+add_custom_target(fetch_all3rd)
 add_git_3rd_project(OpenVolumeMesh "ssh://git@ryon.ren:10022/mirrors/OpenVolumeMesh.git" "v2.1" GENERATE_TARGET)
 add_git_3rd_project(amgcl "git@github.com:ddemidov/amgcl.git" "1.4.3" GENERATE_TARGET)
 add_git_3rd_project(assimp "git@github.com:assimp/assimp.git" "v5.2.3" GENERATE_TARGET)
@@ -127,3 +128,4 @@ add_git_3rd_project(OsqpEigen "git@github.com:robotology/osqp-eigen.git" "v0.7.0
 add_git_3rd_project(osqp-cpp "git@github.com:google/osqp-cpp.git" "origin/master" DO_NOT_BUILD GENERATE_TARGET)
 add_git_3rd_project(alglib "git@github.com:LamKamhang/alglib-cmake-wrapper.git" "origin/master" GENERATE_TARGET)
 add_git_3rd_project(wechat-uos "https://aur.archlinux.org/wechat-uos.git" "ae476e0" DO_NOT_BUILD GENERATE_TARGET)
+add_git_3rd_project(ifopt "git@github.com:ethz-adrl/ifopt.git" "2.1.3" GENERATE_TARGET)
