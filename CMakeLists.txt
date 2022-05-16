@@ -21,12 +21,13 @@ add_git_3rd_project(amgcl "git@github.com:ddemidov/amgcl.git" "1.4.3" GENERATE_T
 add_git_3rd_project(assimp "git@github.com:assimp/assimp.git" "v5.2.3" GENERATE_TARGET)
 add_git_3rd_project(Catch2 "ssh://git@ryon.ren:10022/mirrors/Catch2.git"  "v2.13.7" GENERATE_TARGET)
 add_git_3rd_project(eigen3   "ssh://git@ryon.ren:10022/mirrors/eigen3.git"   "3.4.0" GENERATE_TARGET)
-add_git_3rd_project(autodiff "ssh://git@ryon.ren:10022/mirrors/autodiff.git" "v0.6.7"
+add_git_3rd_project(autodiff "ssh://git@ryon.ren:10022/mirrors/autodiff.git" "v0.6.8"
   CMAKE_ARGS "-DAUTODIFF_BUILD_TESTS=OFF"
   CMAKE_ARGS "-DAUTODIFF_BUILD_PYTHON=OFF"
   CMAKE_ARGS "-DAUTODIFF_BUILD_EXAMPLES=OFF"
   CMAKE_ARGS "-DAUTODIFF_BUILD_DOCS=OFF"
   GENERATE_TARGET
+  PATCH_COMMAND "git restore . && git apply ${CMAKE_CURRENT_SOURCE_DIR}/cmake/autodiff.patch && echo patch applied"
   )
 add_git_3rd_project(bullet3 "git@github.com:bulletphysics/bullet3.git" "3.17" GENERATE_TARGET)
 add_git_3rd_project(cgal "git@github.com:CGAL/cgal.git" "v5.4" GENERATE_TARGET)
@@ -74,7 +75,7 @@ add_git_3rd_project(libigl-imgui "ssh://git@ryon.ren:10022/mirrors/libigl-imgui.
   )
 add_git_3rd_project(glm "git@github.com:g-truc/glm.git" "6ad79aae" DO_NOT_BUILD GENERATE_TARGET) # 2021.9.2
 add_git_3rd_project(benchmark "git@github.com:google/benchmark.git" "v1.5.6" DO_NOT_BUILD GENERATE_TARGET)
-add_git_3rd_project(ceres-solver "git@github.com:ceres-solver/ceres-solver.git" "09ec499" DO_NOT_BUILD GENERATE_TARGET) # 2022.2.18
+add_git_3rd_project(ceres-solver "git@github.com:ceres-solver/ceres-solver.git" "09ec499" GENERATE_TARGET) # 2022.2.18
 # add_git_3rd_project(FlameGraph "git@github.com:brendangregg/FlameGraph.git" "810687f" DO_NOT_BUILD GENERATE_TARGET)
 add_git_3rd_project(geometry-central "git@github.com:nmwsharp/geometry-central.git" "origin/master" DO_NOT_BUILD GENERATE_TARGET)
 add_git_3rd_project(glad "git@github.com:LamKamhang/glad.git" "6ee1551" DO_NOT_BUILD GENERATE_TARGET)
