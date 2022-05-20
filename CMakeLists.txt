@@ -133,4 +133,8 @@ gt_git_3rd_project(osqp-cpp "git@github.com:google/osqp-cpp.git" "origin/master"
 gt_git_3rd_project(alglib "git@github.com:LamKamhang/alglib-cmake-wrapper.git" "origin/master")
 gt_git_3rd_project(wechat-uos "https://aur.archlinux.org/wechat-uos.git" "ae476e0" DO_NOT_BUILD)
 gt_git_3rd_project(ifopt "git@github.com:ethz-adrl/ifopt.git" "2.1.3")
-gt_git_3rd_project(sobogus "https://bitbucket.org/gdaviet/so-bogus.git" "origin/master" DO_NOT_BUILD)
+gt_git_3rd_project(sobogus "https://bitbucket.org/gdaviet/so-bogus.git" "origin/master"
+  CMAKE_ARGS "-DTESTS=OFF"
+  CMAKE_ARGS "-DAPPS=OFF"
+  CMAKE_ARGS "-DCPP11=ON"
+)
