@@ -138,3 +138,5 @@ gt_git_3rd_project(bogus "https://bitbucket.org/gdaviet/so-bogus.git" "origin/ma
   CMAKE_ARGS "-DAPPS=OFF"
   CMAKE_ARGS "-DCPP11=ON"
 )
+gt_git_3rd_project(elasty "git@github.com:yuki-koyama/elasty.git" "origin/master" DO_NOT_BUILD)
+gt_git_3rd_project(sofa "git@github.com:sofa-framework/sofa.git" "origin/master" DO_NOT_BUILD)
