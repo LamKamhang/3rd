@@ -48,8 +48,8 @@ gt_git_3rd_project(cli11 "ssh://git@ryon.ren:10022/mirrors/CLI11.git" "v2.2.0"
   )
 gt_git_3rd_project(fmt "ssh://git@ryon.ren:10022/mirrors/fmt.git" "8.0.1")
 gt_git_3rd_project(glfw3 "ssh://git@ryon.ren:10022/mirrors/glfw.git" "3.3.4")
-gt_git_3rd_project(oneTBB "git@github.com:oneapi-src/oneTBB.git" "v2021.3.0"
-  CMAKE_ARGS "-DTBB_TEST=OFF")
+# gt_git_3rd_project(oneTBB "git@github.com:oneapi-src/oneTBB.git" "v2021.3.0"
+#   CMAKE_ARGS "-DTBB_TEST=OFF")
 # gt_git_3rd_project(oneDNN "git@github.com:oneapi-src/oneDNN.git" "graph-v0.2")
 # gt_git_3rd_project(oneMKL "git@github.com:oneapi-src/oneMKL.git" "1539bca"
 #   CMAKE_ARGS "-DBUILD_FUNCTIONAL_TESTS=OFF -DCMAKE_CXX_COMPILER=dpcpp")
@@ -82,7 +82,12 @@ gt_git_3rd_project(libigl-imgui "ssh://git@ryon.ren:10022/mirrors/libigl-imgui.g
   )
 gt_git_3rd_project(glm "git@github.com:g-truc/glm.git" "6ad79aae" DO_NOT_BUILD) # 2021.9.2
 gt_git_3rd_project(benchmark "git@github.com:google/benchmark.git" "v1.5.6" DO_NOT_BUILD)
-gt_git_3rd_project(ceres-solver "git@github.com:ceres-solver/ceres-solver.git" "09ec499") # 2022.2.18
+gt_git_3rd_project(ceres-solver "git@github.com:ceres-solver/ceres-solver.git" "09ec499"
+  CMAKE_ARGS "-DBUILD_TESTING=OFF"
+  CMAKE_ARGS "-DBUILD_EXAMPLES=OFF"
+  CMAKE_ARGS "-DBUILD_BENCHMARKS=OFF"
+  CMAKE_ARGS "-DMINIGLOG=ON"
+  ) # 2022.2.18
 # gt_git_3rd_project(FlameGraph "git@github.com:brendangregg/FlameGraph.git" "810687f" DO_NOT_BUILD)
 gt_git_3rd_project(geometry-central "git@github.com:nmwsharp/geometry-central.git" "origin/master" DO_NOT_BUILD)
 gt_git_3rd_project(glad "git@github.com:LamKamhang/glad.git" "6ee1551" DO_NOT_BUILD)
