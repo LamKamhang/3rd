@@ -93,7 +93,7 @@ gt_git_3rd_project(geometry-central "git@github.com:nmwsharp/geometry-central.gi
 gt_git_3rd_project(glad "git@github.com:LamKamhang/glad.git" "6ee1551" DO_NOT_BUILD)
 gt_git_3rd_project(IPC "git@github.com:ipc-sim/IPC.git" "origin/master" DO_NOT_BUILD)
 # gt_git_3rd_project(nonmanifold-laplacian "git@github.com:nmwsharp/nonmanifold-laplacian.git" "origin/master" DO_NOT_BUILD)
-gt_git_3rd_project(onedrive "git@github.com:abraunegg/onedrive.git" "v2.4.15" DO_NOT_BUILD)
+gt_git_3rd_project(onedrive "git@github.com:abraunegg/onedrive.git" "v2.4.19" DO_NOT_BUILD)
 gt_git_3rd_project(penrose "git@github.com:penrose/penrose.git" "f56d55f5" DO_NOT_BUILD)
 gt_git_3rd_project(polyscope "git@github.com:nmwsharp/polyscope.git" "origin/master" DO_NOT_BUILD)
 gt_git_3rd_project(qt-mvvm "git@github.com:gpospelov/qt-mvvm.git" "59f8083e" DO_NOT_BUILD)
